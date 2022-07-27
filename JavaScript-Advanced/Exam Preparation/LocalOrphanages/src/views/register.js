@@ -42,5 +42,5 @@ async function onSubmit(ctx, data, event) {
 
     await userService.register(data.email, data.password);
     event.target.reset();
-    ctx.page.redirect('/dashboard')
+    ctx.page.redirect('/')
 }

@@ -3,7 +3,7 @@ import { render, html } from "../../node_modules/lit-html/lit-html.js";
 const navTemplate = (user) => html`
         <h1><a href="/">Orphelp</a></h1>
         <nav>
-            <a href="/dashboard">Dashboard</a>
+            <a href="/">Dashboard</a>
             ${user
                 ? html `<div id="user">
                             <a href="/profile">My Posts</a>
