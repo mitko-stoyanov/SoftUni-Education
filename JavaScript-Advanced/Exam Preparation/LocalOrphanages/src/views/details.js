@@ -53,6 +53,7 @@ export async function detailsPage(ctx) {
     }
 
     ctx.render(detailsTemplate(material, checkButtons(), getDonations()));
+    let donations = await donateService.getAllDonates(materialId);
 
     async function onDelete() {
         const choice = confirm('Are you sure you want to delete this material?');
@@ -67,12 +68,10 @@ export async function detailsPage(ctx) {
         await donateService.donate({
             postId: materialId
         });
+
+        let donations = await donateService.getAllDonates(materialId);
+        
     }
 
-    async function getDonations() {
-        let donations = await donateService.getAllDonates(materialId);
-        console.log(donations)
-        return donations;
-    }
 }
 
