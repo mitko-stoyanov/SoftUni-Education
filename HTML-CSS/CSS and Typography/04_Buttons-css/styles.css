@@ -1,0 +1,39 @@
+a, button {
+    border-radius: 20px;
+    padding: 4px;
+    color: black;
+}
+
+a:hover, button:hover {
+    cursor: pointer;
+}
+
+.filled-button, .icon-button {
+    background-color: rgb(11, 46, 71);
+    color: white;
+    border: 1px solid rgb(11, 46, 71);
+}
+
+.button {
+    background-color: white;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+section.icon button.hover:hover,
+section.filled button.hover:hover {
+    background-color: green;
+    border: 1px solid green;
+}
+
+section.normal button.hover:hover {
+    color: lightgreen;
+    border: 1px solid lightgreen
+}
+
+a {
+    padding: 3px;
+}
