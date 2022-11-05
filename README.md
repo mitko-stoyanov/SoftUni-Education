@@ -1,5 +1,4 @@
 # **HTML-and-CSS-september-2022**
-
 ## ROADMAP:
   1. Programming Basics
   2. Programming Fundamentals
@@ -13,5 +12,4 @@
      - JS Advanced
      - JS Applications
   6. HTML & CSS
-
 ***
