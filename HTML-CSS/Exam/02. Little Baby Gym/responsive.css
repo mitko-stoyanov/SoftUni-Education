@@ -1,0 +1,133 @@
+@media screen and (max-width: 600px) {
+    nav.site-navigation {
+        display: none;
+    }
+
+    body {
+        background-color: #f1f1e6;
+    }
+
+    section.site-logos{
+        background-color: white;
+    }
+
+    main.site-main {
+        margin: 0;
+    }
+
+    /* .entry-header {
+        background-position: bottom right;
+    } */
+
+    main.site-main button.button-primary {
+        width: 139px;
+    }
+
+    section.site-logos div.site-logos-container {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 200px;
+        justify-content: center;
+    }
+
+    section.site-information-image {
+        display: none;
+    }
+
+    div.site-information {
+        justify-content: center;
+    }
+
+    section.site-information-text {
+        padding: 4rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    section.site-information-text p.entry-description {
+        margin: 0;
+        width: 100%;
+    }
+
+    main.site-main button.button-primary {
+        width: 128px;
+    }
+
+    div.site-form {
+        margin: 0;
+    }
+
+    div.site-form p {
+        flex-direction: column;
+    }
+
+    div.site-form p input {
+        width: 100%;
+    }
+
+    main.site-main button.button-primary {
+        margin: 0 auto;
+    }
+
+    h5.entry-subtitle {
+        font-size: 38px;
+    }
+
+    section.site-form-container h2.entry-title {
+        font-size: 11px;
+    }
+
+    section.site-posts {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    section.site-posts div {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .site-post div.image {
+        width: 100%;
+    }
+
+    .site-post h2 a {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .site-post p {
+        font-size: 19px;
+    }
+
+    h2.entry-title {
+        font-size: 60px;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+
+    .site-post h2 {
+        font-size: 1.5rem;
+    }
+
+    footer.site-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.site-information-text h2 {
+        margin: 0 auto;
+        width: unset;
+    }
+
+    form {
+        padding-top: 1rem;
+    }
+
+}
