@@ -1,0 +1,196 @@
+@import url("reset.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* TOP NAVIGATION */
+
+section.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 3rem;
+    font-size: 18px;
+    background-color: #d01919;
+    color: white;
+}
+
+section.top-nav i:not(:last-child) {
+    margin-right: 5px;
+}
+
+/* MAIN SECTION */
+
+section.main {
+    background-image: url(../image/fitness-main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+
+    padding: 1.5rem 5rem;
+
+    position: relative;
+}
+
+section.main div.main-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section.main div.main-nav ul {
+    display: flex;
+    gap: 70px;
+    font-size: 20px;
+    color: white;
+}
+
+section.main div.main-content {
+    color: white;
+    width: 40%;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.main div.main-content h1 {
+    font-size: 62px;
+    letter-spacing: 1rem;
+}
+
+section.main div.main-content p {
+    font-size: 21px;
+    width: 79%;
+    margin: 0 auto;
+    line-height: 1.1;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+section.main div.main-content button {
+    background-color: #d01919;
+    border: none;
+    color: inherit;
+    border-radius: 5px;
+    padding: 0.3rem 1.4rem;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* WELCOME SECTION */
+
+section.welcome {
+    width: 85%;
+    margin: 0 auto;
+    padding: 3rem 4rem;
+    text-align: center;
+}
+
+section.welcome ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+section.welcome ul li {
+    width: 291px;
+}
+
+section.welcome ul li img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+section.welcome ul li p{
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+section.welcome ul li div.img-wrapper {
+    margin-bottom: 18px;
+}
+
+section.welcome ul li span.li-title {
+    font-size: 18px;
+    color: #d01919;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+div.divider {
+    width: 60px;
+    height: 3px;
+    background-color: #d01919;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/* COACHES SECTION */
+
+section.coaches {
+    background-color: #efefef;
+
+}
+
+section.coaches div.coaches-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 4rem;
+    text-align: center;
+}
+
+section.coaches ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.coaches ul li {
+    width: 348px;
+}
+
+section.coaches ul li img {
+    width: 100%;
+}
+
+section.coaches ul li p{
+    font-size: 19px;
+    margin-top: 10px;
+    color: #b9a9ad;
+}
+
+
+section.coaches ul li span {
+    display: block;
+}
+
+section.coaches ul li span.li-top-title {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+section.coaches ul li span.li-sub-title {
+    color: #d01919;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* FOOTER */
+
+section.footer {
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+    background-color:#d01919;
+    font-size: 18px;
+}
