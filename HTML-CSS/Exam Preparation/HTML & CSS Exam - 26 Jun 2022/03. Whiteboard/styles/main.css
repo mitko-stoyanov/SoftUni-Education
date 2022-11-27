@@ -1,0 +1,262 @@
+@import url("reset.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/* MAIN SECTION */
+
+section.main {
+    height: 72vh;
+    position: relative;
+    padding: 2rem 3rem;
+}
+
+img.full {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+}
+
+section.main div.dimmer {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.5382528011204482) 50%, rgba(255,255,255,0) 100%);
+    z-index: -1;
+}
+
+section.main ul.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+
+section.main div.navigation {
+    margin-bottom: 30px;
+}
+
+section.main div.main-content{
+    text-align: center;
+    color: white;
+}
+
+section.main div.main-content h1 {
+    font-size: 68px;
+    margin-top: 115px;
+    margin-bottom: 28px;
+    text-shadow: 1px 2px black;
+}
+
+section.main div.main-content p {
+    font-size: 30px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 87px;
+    text-shadow: 1px 2px black;
+}
+
+section.main div.main-content button {
+    background-color: #00d08e;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+}
+
+section.main div.main-content button:hover {
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+section.main div.main-content div.see-action {
+    font-size: 24px;
+    text-shadow: 1px 2px black;
+}
+
+section.main div.main-content div.see-action span {
+    margin-right: 25px;
+}
+
+div.navigation {
+    color: white;
+}
+
+li.nav-element {
+    font-size: 25px;
+    text-shadow: 1px 2px black;
+}
+
+li.nav-element i {
+    margin-right: 6px;
+}
+
+/* FEATURES SECTION */
+
+section.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 500px;
+}
+
+section.features div.features-list {
+    padding: 1.5rem 4rem;
+}
+
+section.features div.features-list h2 {
+    font-size: 42px;
+}
+
+div.right-img img {
+    width: 100%;
+    height: 100%;
+}
+
+section.features div.features-list p {
+    font-size: 24px;
+    width: 70%;
+    line-height: 1.3;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+ul.all-features {
+    margin-top: 55px;
+}
+
+ul.all-features i{
+    margin-right: 25px;
+    color: #00d08e;
+}
+
+ul.all-features li {
+    font-size: 22px;
+}
+
+ul.all-features li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+/* ADVANTAGES SECTION */
+
+section.advantages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 500px;
+    text-align: center;
+}
+
+section.advantages h2 {
+    font-size: 38px;
+}
+
+section.advantages div.left-img img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul.advantages-list div.title-img img {
+    width: 95px;
+    height: 95px;
+    margin-bottom: 15px;
+}
+
+section.advantages div.left-flex {
+    padding: 1.5rem 4rem;
+}
+
+section.advantages div.left-flex ul.advantages-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+
+    margin-top: 40px;
+}
+
+
+section.advantages div.left-flex ul.advantages-list li {
+    width: 30%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.advantages div.left-flex ul.advantages-list li span {
+    color: #00d08e;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* QUESTIONS SECTION */
+
+section.questions {
+    text-align: center;
+    padding: 2rem 3rem;
+    background-color:#b2f1dd;
+}
+
+section.questions div.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 155px, 155px, 50px;
+    grid-template-areas: 
+    "first second third"
+    "fourth fifth sixt"
+    ". seventh .";
+    gap: 35px;
+
+    margin-top: 50px;
+}
+
+section.questions div.grid-layout h3 {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+section.questions div.grid-layout p {
+    width: 60%;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+div.first-first {
+    grid-area: first;
+}div.first-second {
+    grid-area: second;
+}div.first-third {
+    grid-area: third;
+}div.second-first {
+    grid-area: fourth;
+}div.second-second {
+    grid-area: fifth;
+}div.second-third {
+    grid-area: sixt;
+}div.email-us {
+    grid-area: seventh;
+}
+
+section.questions div.grid-layout div.email-us p.special {
+    font-size: 18px;
+}
