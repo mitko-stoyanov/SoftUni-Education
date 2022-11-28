@@ -1,0 +1,76 @@
+body {
+    font-family: 'Helvetica';
+}
+
+section {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 42vh;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px
+}
+
+span {
+    letter-spacing: 1px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 32px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+div.image {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    line-height: 30px;
+    font-size: 18px;
+    color:  rgb(95, 94, 94)
+}
+
+div.content {
+    padding: 20px;
+}
+
+button.contact {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+button.learn {
+    background-color: white;
+    border-radius: 3px;
+    padding: 11px 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+img {
+    width: 85%;
+    height: 85%;
+    margin-left: 30px;
+}
