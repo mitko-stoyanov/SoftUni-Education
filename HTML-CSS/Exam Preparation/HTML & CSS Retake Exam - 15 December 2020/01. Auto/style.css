@@ -1,0 +1,69 @@
+body {
+    font-family: 'Poppins';
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat';
+}
+
+
+section.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 70%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+div.content {
+    width: 95%;
+    height: 100%;
+    padding: 0px 15px;
+}
+
+img.main-image {
+    width: 100%;
+    height: 95%;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+h1 {
+    line-height: 30px;
+    margin-top: 0;
+}
+
+h1, h4 {
+    letter-spacing: 1px;
+}
+
+h4 {
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.content-p {
+    margin-top: 0px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon:last-child {
+    margin-bottom: 0;
+}
+
+.main-text {
+    margin-top: 35px;
+}
