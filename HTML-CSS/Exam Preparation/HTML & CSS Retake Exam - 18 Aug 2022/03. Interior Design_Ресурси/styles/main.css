@@ -1,0 +1,218 @@
+@import url("reset.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 78%;
+    margin: 0 auto;
+}
+
+/* MAIN SECTION */
+
+section.main {
+    background-image: url(../image/image.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+
+    position: relative;
+}
+
+section.main div.title-div {
+    border: 1px solid #7e7c7c;
+    box-shadow: 7px 7px 9px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 7px 7px 9px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 9px -3px rgba(0, 0, 0, 0.75);
+    width: 18%;
+    padding: 1.5rem 1rem;
+    color: #363434;
+
+    position: absolute;
+    top: 5%;
+    left: 6%;
+}
+
+section.main div.title-div h1 {
+    font-size: 42px;
+
+    border-bottom: 3px solid white;
+    width: 66%;
+    margin-bottom: 8px;
+
+}
+
+section.main div.title-div span {
+    font-size: 17px;
+}
+
+section.main div.content {
+    width: 26%;
+    text-align: right;
+    position: absolute;
+    right: 5%;
+    top: 29%;
+
+    background-color: #c2bdb9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2rem 1rem;
+
+    box-shadow: 7px 7px 9px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 7px 7px 9px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 9px -3px rgba(0, 0, 0, 0.75);
+}
+
+section.main div.content p {
+    font-size: 20px;
+    color: white;
+    width: 95%;
+}
+
+section.main div.content span {
+    font-size: 68px;
+    line-height: 1;
+    line-height: 0;
+    font-weight: bold;
+    padding-top: 2rem;
+    margin-bottom: 8px;
+    color: #8d8581;
+}
+
+/* SERVICES SECTION */
+
+section.services {
+    width: 68%;
+
+    color: #333333;
+    
+    background-color: #f2f0f3;
+}
+
+section.services section.services-top {
+    padding: 3rem 5rem;
+
+}
+
+section.services h2 {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+section.services ul li {
+    margin-bottom: 25px;
+    font-size: 20px;
+    width: 90%;
+}
+
+section.services ul li span.service-title {
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+section.services h2.contacts-title {
+    padding: 0 5rem;
+
+}
+
+section.services div.divider {
+    height: 3px;
+    background-color: #333333;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* CONTACTS SECTION */
+
+section.contacts-sec {
+    padding: 3rem 5rem;
+}
+
+section.contacts-sec ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+section.contacts-sec ul li {
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+section.contacts-sec ul li.special {
+    width: 23%;
+}
+
+section.contacts-sec ul li span.title {
+    font-weight: bold;
+    margin-right: 4px;
+    font-style: italic;
+}
+
+section.contacts-sec input {
+    background-color: #bab1ad;
+    padding: 0.8rem 1.3rem;
+    width: 55%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+section.contacts-sec input::placeholder {
+    color: white;
+}
+
+section.contacts-sec button {
+    padding: 0.8rem 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #67784d;
+
+    color: white;
+}
+
+/* ASIDE */
+
+aside {
+    width: 32%;
+    float: right;
+    background-color: #bab1ad;
+    padding: 4rem 3rem;
+    height: 973px;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside ul li {
+    margin-bottom: 135px;
+}
+
+aside ul li p {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+aside ul li span.title{
+    font-size: 86px;
+    color: white;
+    font-weight: 100;
+    line-height: 0.9;
+}
