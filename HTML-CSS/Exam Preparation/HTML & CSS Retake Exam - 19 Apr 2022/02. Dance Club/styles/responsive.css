@@ -1,0 +1,45 @@
+@media screen and (max-width: 800px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .nav-options {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .trainings {
+        flex-direction: column;
+    }
+
+    .trainings div {
+        width: 50%;
+    }
+
+    .instructors-pic {
+        flex-direction: column;
+    }
+
+    .getInTouch {
+        flex-direction: column;
+        margin: 0 auto;
+        height: 1200px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .map img {
+        position:relative;
+        top: 0%;
+        left: 0%;
+        transform: none;
+    }
+}
